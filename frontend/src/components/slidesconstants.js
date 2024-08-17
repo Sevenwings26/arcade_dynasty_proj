@@ -8,7 +8,7 @@ import {
   } from "react-icons/rx";
   
   import carousel1 from "../assets/heroslides/carousel1.jpg";
-  // import carousel2 from "../assets/heroslides/carousel2.jpg";
+  import carousel2 from "../assets/heroslides/carousel2.jpg";
   import carousel3 from "../assets/heroslides/carousel3.png";
   import carousel4 from "../assets/heroslides/carousel4.jpg";
   import carousel5 from "../assets/heroslides/carousel5.jpg";
@@ -25,7 +25,7 @@ import {
       icon: RxPencil2,
       title: "Branding",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      // backgroundImage: carousel2,
+      backgroundImage: carousel2,
     },
     {
       icon: RxDesktop,
