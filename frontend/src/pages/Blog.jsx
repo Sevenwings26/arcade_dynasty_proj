@@ -5,6 +5,7 @@ const Blog = () => {
   return (
     <div>
       <Navbar/>
+      Blog Page
     </div>
   )
 }

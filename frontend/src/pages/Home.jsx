@@ -5,7 +5,6 @@ import HeroSlider from "../components/HeroSlider";
 import Sponsors from "../components/Sponsors";
 import ArcadeComponent from "../assets/images/ArcadeComponent.jpg";
 import wedding from "../assets/images/wedding.png";
-import HeroCarousel from "../components/HeroCaousel";
 import DisplayShows from "../components/DisplayShows";
 import UpcomingEvent from "../components/UpcomingEvent";
 import "../App.css";
@@ -18,7 +17,6 @@ const Home = () => {
     <div className="">
       <Navbar />
       <HeroSlider />
-      <HeroCarousel />
       <div className="md:container m-auto py-2 px-6">
         <section>
           <div className="flex items-center justify-center text-center w-full flex-col border-0 m-auto">
@@ -31,7 +29,6 @@ const Home = () => {
 
               <div className="brand mt-3 rounded-xl w-full relative">
                 <Link to="">
-                  {/* Added relative here */}
                   <div className="absolute bg-black view_more transform md:-translate-y-4 -translate-x-2/4 md:-translate-x-0 md:w-28 md:h-16 text-white">
                     <p>View More</p>
                   </div>

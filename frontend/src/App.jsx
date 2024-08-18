@@ -8,6 +8,7 @@ import Register from './pages/Register'
 import Dashboard from './pages/Dashboard'
 import Blog from './pages/Blog'
 import About from './pages/About'
+import Designers from './pages/Designers'
 
 
 
@@ -21,13 +22,15 @@ const App = () => {
             <Routes>
               <Route path='/dashboard' element={
                 <ProtectedRoute>
-                  <Dashboard/>
+                  {/* <Dashboard/> */}
+                  <Designers/>
                 </ProtectedRoute>
               } />
               <Route path='/login' element= {<Login/>}/>
               <Route path='/register'  element= {<Register/>} />
               <Route path='/blog'  element= {<Blog/>} />
               <Route path='/about'  element= {<About/>} />
+              <Route path='/designers'  element= {<Designers/>} />
               <Route path='/' exact element= {<Home/>}/>
             </Routes>
           </AuthProvider>
